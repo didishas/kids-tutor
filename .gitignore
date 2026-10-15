@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Frontend
+node_modules/
+dist/
+
+# Modèles téléchargés (trop lourds pour git)
+models/
+*.gguf
+*.onnx
+*.bin
+
+# Données des enfants : ne jamais versionner
+data/
+*.db
+*.sqlite
+recordings/
+
+# Environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Divers
+*.log
+.DS_Store
+.vscode/
+.idea/
